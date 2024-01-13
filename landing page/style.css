@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
+
+  
+  
+
+
+ .container-fluid {
+   
+   
+   background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #989898;
+   background-blend-mode: multiply,multiply;
+   
+}
+
+#nav {
+    font-family: 'Lemon', serif;
+    text-decoration: none;
+    margin-left: 200px;
+    color: rgb(255, 255, 255);
+    border: 1px solid black;
+    border-radius: 10px;
+    background-image: linear-gradient(to top, #3e4747 0%, #330867 100%);
+    width:20px ;
+
+  
+}
+
+ a:hover{
+    
+    box-shadow:  0 0 5px cyan,
+    0 0 25px cyan, 0 0 50px cyan, 0 0 100px cyan, 0 0 200px cyan;
+ }
+
+
+ 
+ 
+
+
+ /*SLIDER*/
+ .carousel slide{
+   height: 200px;
+   padding-bottom: 8px;
+ }
+
+
+
+/* services */
+#services{
+   margin-top: 35px;
+   border: 2px dotted;
+   margin-left:45%;
+   border-radius: 10px;
+   pointer-events: none;
+   font-size: larger;
+    font-family: 'Lemon', serif; 
+    background-color:rgb(92, 87, 80); color: aliceblue;
+}
+
+
+
+/*testomenials*/
+
+ #TESTOMENIALS{
+   margin-top: 35px;
+  border: 2px dotted;
+  margin-left:45%;
+  border-radius: 10px;
+  pointer-events: none;
+  font-size: larger;
+   font-family: 'Lemon', serif;
+    background-color:rgb(92, 87, 80); 
+    color: aliceblue;}
+
+
+    /*CONTACT*/
+    #CONTACT{
+      margin-top: 35px;
+      border: 2px dotted;
+      margin-left:45%;
+      border-radius: 10px;
+      pointer-events: none;
+      font-size: larger;
+       font-family: 'Lemon', serif;
+        background-color:rgb(92, 87, 80);
+         color: aliceblue;
+    }
+
+
+
+
+    #con{
+      margin: 40px;
+      margin-top: 80px;
+      padding: 25px;
+      text-align: center;
+      align-content: center;
+      justify-content: center;
+      align-items: center;
+      border: 3px dotted;
+      width:70%;
+      margin-left: 200px;
+      height: 90vh;
+      background-color: aquamarine;
+    }
+
+    #xyz{
+      margin-top:50px;
+      font-size:15px;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    }
